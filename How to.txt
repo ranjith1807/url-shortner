@@ -1,0 +1,27 @@
+Run the below to install the requirements
+pip install -r requirements.txt
+
+
+----------------------------------------------------
+
+
+Run the below to start 
+    python -m flask --app app.main run
+
+
+Install Postman
+Download and install Postman from https://www.postman.com/downloads/.
+
+
+Method: POST
+
+URL: http://localhost:5000/api/shorten
+
+Body:
+
+Select raw → JSON
+
+Payload: {"url":"https://www.google.com"} -> make use of your own URL
+
+Click Send to execute each request.
+
